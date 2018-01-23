@@ -1,0 +1,14 @@
+[
+  {
+    "Recognizer": [
+      {
+        "input" :[
+            "./3_pastadetection/recognition/input/000159.jpg"
+        ],
+        "output" :[
+            "./3_pastadetection/recognition/output/000234.jpg"
+        ]
+      }
+    ]
+  }
+]
