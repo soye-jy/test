@@ -1219,12 +1219,11 @@
 }
 
 .btn-area1{
-	position: fixed;
 	top: 25%;
 	bottom: 40%;
 	float: left;
-	margin-top: 10em;
-	width: 15%;
+	margin-top: 2em;
+	width: 13%;
 	height: 26em;
 	z-index: 1;
 }
