@@ -42,7 +42,7 @@ function imgCreate1(set_all, set_face) {
 function imgUpload1() {
   $.ajax({
     type:"GET",
-    url: "https://github.com/test910531/test910531.github.io/blob/master/json/data_kwang.json",
+    url: "https://raw.githubusercontent.com/test910531/test910531.github.io/master/json/data_kwang.json",
     async:false,
     success: function(json){
         all_list = saveImg_All(json);
@@ -63,7 +63,7 @@ function imgCreate2(set_all, set_face) {
 function imgUpload2() {
   $.ajax({
     type:"GET",
-    url: "https://github.com/test910531/test910531.github.io/blob/master/json/data_yoons.json",
+    url: "https://raw.githubusercontent.com/test910531/test910531.github.io/master/json/data_yoons.json",
     async:false,
     success: function(json){
         all_list = saveImg_All(json);
@@ -78,7 +78,7 @@ function imgUpload2() {
 function imgUpload3() {
   $.ajax({
     type:"GET",
-    url: "https://github.com/test910531/test910531.github.io/blob/master/json/data_pasta.json",
+    url: "https://raw.githubusercontent.com/test910531/test910531.github.io/master/json/data_pasta.json",
     async:false,
     success: function(json){
         var list = $.parseJSON(json);

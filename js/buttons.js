@@ -134,16 +134,16 @@ $(document).ready(function(){
 
   });
 
-  //main
-  $('#main-button').click(function(){
-    $('#main-area').fadeIn('slow');
-    $('#banner').hide();
-    $('#main-button').hide();
-    $('#header').hide();
-     var offset = $("#main-area").offset();
-    $('html, body').animate({scrollTop : offset.top}, 400);
-
-  });
+  // //main
+  // $('#main-button').click(function(){
+  //   $('#main-area').fadeIn('slow');
+  //   $('#banner').hide();
+  //   $('#main-button').hide();
+  //   $('#header').hide();
+  //    var offset = $("#main-area").offset();
+  //   $('html, body').animate({scrollTop : offset.top}, 400);
+  //
+  // });
 
 
   //food button
